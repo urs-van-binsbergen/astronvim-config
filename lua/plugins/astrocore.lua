@@ -16,6 +16,18 @@ return {
           desc = "Indent selection left",
         },
       },
+      n = {
+        ["ü"] = {
+          "[",
+          desc = "Act as [",
+          remap = true
+        },
+        ["¨"] = {
+          "[",
+          desc = "Act as ]",
+          remap = true
+        },
+      }
     }
   }
 }
